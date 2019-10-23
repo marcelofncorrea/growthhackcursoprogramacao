@@ -412,6 +412,14 @@ h6, .h6 {
   font-size: 4.5rem;
   font-weight: 500;
   line-height: 1.2;
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+}
+
+.subtitle {
+  color: #ffffff;
+  font-size: 20px;
+  text-shadow: 1px 1px #000000;
 }
 
 .display-4 {
@@ -4934,6 +4942,9 @@ tbody.collapse.show {
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
+  background-image: url(../img/programming.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (min-width: 576px) {
