@@ -8984,3 +8984,21 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.botao_airbnb {
+    border-radius: var(--border-button-border-radius, 4px) !important;
+    font-size: var(--font-button-font-size, 16px) !important;
+    line-height: var(--font-button-line-height, 24px) !important;
+    letter-spacing: var(--font-button-letter-spacing, normal) !important;
+    font-family: var(--font-button-font-family, Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif) !important;
+    text-transform: var(--font-button-text-transform, undefined) !important;
+    padding-top: var(--spacing-button-vertical, 10px) !important;
+    padding-bottom: var(--spacing-button-vertical, 10px) !important;
+    font-weight: var(--font-bold-font-weight, 800) !important;
+    border-width: var(--border-button-border-width, 2px) !important;
+    padding-left: var(--spacing-button-horizontal, 22px) !important;
+    padding-right: var(--spacing-button-horizontal, 22px) !important;
+    box-shadow: var(--shadow-button-level0-box-shadow, none) !important;
+    background: var(--color-buttons-secondary-inverse-color, transparent) !important;
+    border-color: var(--color-buttons-secondary-inverse-border, #ffffff) !important;
+    color: var(--color-buttons-secondary-inverse-text, #ffffff) !important;
+}
