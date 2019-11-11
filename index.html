@@ -133,6 +133,13 @@
                   'Tipo': 'Aulas Online'
                   'url': window.location.pathname
                 });
+
+                ga('send', {
+                  hitType: 'event',
+                  eventCategory: 'Clique Botao',
+                  eventAction: 'clique',
+                  eventLabel: 'Aulas Online'
+                })
               }
             </script>
 
